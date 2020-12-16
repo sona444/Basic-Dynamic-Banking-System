@@ -1,0 +1,72 @@
+body{
+    margin:0;
+} 
+section{
+    color:#66FCF1;
+    background-color:black;
+}
+.show{
+    position:absolute;
+    right:8%;
+    top:15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 800;
+    padding:3px;
+    border:2px solid #66FCF1;
+    color:#66FCF1;
+    animation:show 5s;
+}
+.show:hover{
+    color:black;
+    background-color: #66FCF1;
+    border:2px solid black;
+}
+.transact{
+    position:absolute;
+    right:8%;
+    bottom:10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 800;
+    padding:3px;
+    border:2px solid #66FCF1;
+    color:#66FCF1;
+    animation:transact 5s;
+}
+.transact:hover{
+    color:black;
+    background-color: #66FCF1;
+    border:2px solid black;
+}
+@keyframes show{
+    from{
+        opacity:0;
+        position:absolute;
+        right:8%;
+        top:0;
+    }
+    to{
+        opacity:1;
+        position:absolute;
+        right:8%;
+        top:15%;
+    }
+}
+@keyframes transact{
+    from{
+        opacity:0;
+        position:absolute;
+        right:8%;
+        bottom:20%;
+    }
+    to{
+        opacity:1;
+        position:absolute;
+        right:8%;
+        bottom:10%;
+    }
+}
+.{
+    background-image: linear-gradient(lightblue,lightpink);
+}
